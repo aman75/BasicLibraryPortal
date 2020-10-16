@@ -1,0 +1,242 @@
+header{
+	//background-color: #c0cad6;
+	background-color: #79280b;
+	opacity: 0.9;
+	/* background-color: #db4d0b; */
+	width: 100%;
+	height: 60px;
+	outline: none;
+}
+ul li{
+	list-style-type: none;
+	overflow: hidden;
+	display: inline;
+}
+li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #d9ceb4;
+	margin-right: 10px;
+	font-size: 20px;
+
+}
+
+body{
+	margin: 0%;
+	width: 100%;
+	background-image: url('../images/main.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: TIMES NEW ROMAN;
+}
+.main{
+	background-color: #d9ceb4;
+	border-radius: 10px;
+}
+#h1forhome{
+	//color: #38443d;
+	//color: #c0cad6;
+	color: #79280b;
+	opacity: 0.8;
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+#logo{
+	margin-left: 2%;
+	margin-top: 40px;
+	outline: none;
+	height: 120px;
+	width: 160px;
+
+}
+.input{
+	padding: 5px 10px;
+	width: 80%;
+	box-sizing: border-box;
+	border-style: solid;
+	background-color: #79280b;
+	opacity: 0.5;
+	color: white;
+}
+.sel{
+	color: grey;
+}
+#homediv{
+	width: 80%;
+	margin-left: 10%;
+	height: 300px;
+	text-align: center;
+	//background-color: #2da3f7; 
+	background-repeat: no-repeat;
+	//border-style: solid;
+  	background-image: url('');
+
+}
+#regdiv{
+	width: 100%;
+}
+#regtable{
+	width: 33%;
+	border-radius: 10px;
+	margin-left: 33%;
+	//border-style: solid;
+	border-color: black;
+	opacity: 0.9;
+	background-color: #d9ceb4;
+	//background-image: url('homediv.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#navigation{
+	float: right;
+	margin-right: 10px;
+	padding: 5px;
+}
+tr{
+	text-align: center;
+}
+td{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 0px;
+	text-align: left;
+	font-size: 16px;
+}
+#star{
+	color: red;
+	font-size: 18px;
+}
+#mand{
+	font-size: 10px;
+}
+#h2homediv{
+	color: #242329;
+	//font-weight: bold;
+}
+#bodyHome{
+	//background-color: #b8e6c3;
+}
+#button-home-top {
+  background-color: #d9ceb4;;
+  border: none;
+  opacity: 0.9;
+  outline: none;
+  border-radius: 20px;
+  color: #79280b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  //display: inline-block;
+  font-size: 26px;
+  width: 33%;
+  font-family: Times New Roman;
+}
+#button-home {
+  background-color: #79280b;
+  border: none;
+  outline: none;
+  opacity: 0.9;
+  border-radius: 20px;
+  color: #d9ceb4;
+  padding: 15px 32px;
+  text-align: center;
+  //text-decoration: none;
+  //display: inline-block;
+  font-size: 26px;
+  width: 33%;
+  font-family: Times New Roman;
+  //font-weight: bold;
+  cursor: pointer;
+}
+#button-home:hover{
+	background-color: #d9ceb4;
+	color: #79280b;
+	transition: 1s;
+}
+#span-reg{
+	color:  midnightblue;
+	font-weight: bold;
+	font-size: 18px;
+}
+#button-reg {
+ // background-color: #3726c9;
+  border: none;
+  float: right;
+  color: midnightblue;
+  padding: 0px 0px;
+  //text-align: center;
+  text-decoration: none;
+  //display: inline-block;
+  font-size: 20px;
+  //font-weight: bold;
+  cursor: pointer;
+}
+#button-sub {
+  background-color: #79280b;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  font-family: times new roman;
+  color: ghostwhite;
+  margin-left: 35px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+#divspace{
+	height: 150px;
+	width: 100%;
+}
+footer{
+	background-color: black;
+	margin: 0%;
+	position: absolute;
+	width: 100%;
+	height: 100px;
+}
+#lfooter{
+	width: 40%;
+	float: left;
+	color: grey;
+	//font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#rfooter{
+	//width: 40%;
+	float: right;
+	color: grey;
+	//font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	padding-right: 50px;
+
+}
+#contact{
+	text-decoration: none;
+	color: grey
+}
+.input{
+	outline: none;
+	border:none;
+	opacity: 0.7;
+}
+label{
+	font-weight: bold;
+	color: #79280b;
+	text-transform: uppercase;
+}
+#login-href{
+	text-decoration: none;
+	color: #79280b;
+}

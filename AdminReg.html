@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Admin Registration</title>
+	<link rel="shortcut icon" href="images/logoTitle.png" type="image/png"> 
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="bodyHome">
+	<header id="header" class="">
+		<a href="index.html">
+			<img src="images/logo1.png" alt="LOGO" width="160px" height="120px" id="logo" onclick="index.html">	
+		</a>
+		<nav id="navigation">
+			<!--<span id="span-reg">Existing Users</span>&nbsp;&nbsp;&nbsp;-->
+			<ul> 
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="AdminLogin.html">LOGIN</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id="regdiv">
+		<h1 id="h1forhome"><span class="main">REGISTER AS ADMIN</span></h1>
+		<form>
+			<table id="regtable">
+				<tr>
+					<td><label for="fname">First Name:<span id="star">*</span></label></td>
+					<td><input type="text" name="fname" class="input" id="fname" placeholder="Enter First Name" required /></td>
+				</tr>
+				<tr>
+					<td><label for="lname">Last Name:<span id="star">*</span></label></td>
+					<td><input type="text" name="lname" class="input" id="lname" placeholder="Enter Last Name" required /></td>
+				</tr>
+				<tr>
+					<td><label for="age">Age:<span id="star">*</span></label></td>
+					<td><input type="number" name="age" class="input" id="age"
+					placeholder="Enter your Age" required></td>
+				</tr>
+				<tr>
+					<td><label for="gender">Gender:<span id="star">*</span></label></td>
+					<td>
+					<select name="gender" class="input sel">
+							<option>Select Gender</option>
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+							<option value="Other">Other</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="contactno">Contact Number:<span id="star">*</span></label></td>
+					<td><input type="tel" name="contactno" class="input" id="contactno" placeholder="Enter Contact Number" pattern="[6-9]{1}[0-9]{9}" required/></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email:<span id="star">*</span></label></td>
+					<td><input type="email" name="email" class="input" id="email" placeholder="Enter your Email" required/></td>
+				</tr>
+				<tr>
+					<td><label for="adminId">User Id:<span id="star">*</span></label></td>
+					<td><input type="text" name="adminId" class="input" id="adminId" placeholder="Enter User Id" pattern="[A][0-9]{4}" required/>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="password">Password:<span id="star">*</span></label></td>
+					<td><input type="password" name="password" class="input" id="adminId" placeholder="Enter your Password" pattern="" required/>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="security1">Security Question:<span id="star">*</span></label></td>
+					<td>
+						<select name="security1" class="input sel">
+							<option>Select Question</option>
+							<option value="firstSchoolName">Your First School Name</option>
+							<option value="motherMaidenName">Mother's Maiden Name</option>
+							<option value="firstvehicle">Vehicle Regitration</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="text" class="input" name="answer1" placeholder="Enter you security answer" required/></td>
+				</tr>
+				<!--<tr>
+					<td><label for="security2">Security Question 2:<span id="star">*</span></label></td>
+					<td>
+						<select name="security2" class="input">
+							<option>Select Question 2</option>
+							<option value="firstSchoolName">Your First School Name</option>
+							<option value="motherMaidenName">Mother's Maiden Name</option>
+							<option value="firstvehicle">Vehicle Regitration</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="text" class="input" name="answer2" placeholder="Enter you security answer" required/></td>
+				</tr>
+				<tr>
+					<td><label for="security3">Security Question 3:<span id="star">*</span></label></td>
+					<td>
+						<select name="security3" class="input">
+							<option>Select Question 3</option>
+							<option value="firstSchoolName">Your First School Name</option>
+							<option value="motherMaidenName">Mother's Maiden Name</option>
+							<option value="firstvehicle">Vehicle Regitration</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="text" class="input" name="security3" class="input" placeholder="Enter you security answer" required/></td>
+				</tr>-->
+				<tr>
+					<td><span id="star">*</span><span id="mand">Mandatory</span></td>
+					<td>
+						<input type="submit" name="submit" id="button-sub" value="REGISTER"/>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div id="divspace"></div>
+	<footer>
+		<div id="lfooter">
+			<p>&copy; LEARNING ACADEMY PORTAL</p>
+			<a href="#" id="contact">Contact Us</a>
+		</div>
+		<div id="rfooter">
+			<p>
+				Address:
+				<br>Vinamra Khand, Gomti Nagar
+				<br>Lucknow, Uttar Pradesh, India 
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
